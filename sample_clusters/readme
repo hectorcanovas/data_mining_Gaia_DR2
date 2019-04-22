@@ -1,0 +1,3 @@
+Aim: To test 3 different clustering algorithms (DBSCAN, OPTICS, and HDBSCAN) applyinh them to the Gaia sample.
+Results: The 3 algorithms systematically identify a main cluster that is consistent with the astrometric
+properties of the Control sample
