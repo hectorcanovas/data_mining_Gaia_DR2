@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 3.1.2
+     http://www.astropy.org/ -->
+<VOTABLE version="1.3" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.3">
+ <RESOURCE type="results">
+  <TABLE ID="J_AJ_130_1733_table2" name="J/AJ/130/1733/table2">
+   <DESCRIPTION>
+    Optical properties of candidate T Tauri stars
+   </DESCRIPTION>
+   <FIELD ID="ID" arraysize="4" datatype="unicodeChar" name="ID" ucd="meta.id;obs.field">
+    <DESCRIPTION>
+     HYDRA field and aperture number of observation (N-NN), NOT AS IN
+     PAPER I
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Name" arraysize="21" datatype="unicodeChar" name="Name" ucd="meta.id">
+    <DESCRIPTION>
+     Sources names from optical or infrared studies (1)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Source" arraysize="4" datatype="unicodeChar" name="Source" ucd="meta.id">
+    <DESCRIPTION>
+     Name from Wilking et al. (2005, J/AJ/130/1733), N-NN
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Seq" arraysize="4" datatype="unicodeChar" name="Seq" ucd="meta.id;meta.main">
+    <DESCRIPTION>
+     Identification number (N-NN) (G0)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="RAJ2000" arraysize="10" datatype="unicodeChar" name="RAJ2000" ucd="pos.eq.ra;meta.main" unit="&quot;h:m:s&quot;">
+    <DESCRIPTION>
+     Hour of Right Ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" arraysize="11" datatype="unicodeChar" name="DEJ2000" ucd="pos.eq.dec;meta.main" unit="&quot;d:m:s&quot;">
+    <DESCRIPTION>
+     Degree of Declination (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Names" arraysize="13" datatype="unicodeChar" name="Names" ucd="meta.id">
+    <DESCRIPTION>
+     Source names (G1)
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD/>
+      <TD/>
+      <TD>2-10</TD>
+      <TD>2-10</TD>
+      <TD>16 25 24.3</TD>
+      <TD>-24 15 39.0</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD/>
+      <TD/>
+      <TD>2-32</TD>
+      <TD>2-32</TD>
+      <TD>16 25 47.7</TD>
+      <TD>-24 37 38.7</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD/>
+      <TD/>
+      <TD>4-28</TD>
+      <TD>4-28</TD>
+      <TD>16 26 01.6</TD>
+      <TD>-24 29 44.2</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD/>
+      <TD/>
+      <TD>2-19</TD>
+      <TD>2-19</TD>
+      <TD>16 26 05.5</TD>
+      <TD>-23 55 40.7</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD/>
+      <TD/>
+      <TD>2-11</TD>
+      <TD>2-11</TD>
+      <TD>16 26 19.5</TD>
+      <TD>-24 37 26.8</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD/>
+      <TD/>
+      <TD>4-25</TD>
+      <TD>4-25</TD>
+      <TD>16 26 25.7</TD>
+      <TD>-24 14 27.1</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD/>
+      <TD/>
+      <TD>4-4</TD>
+      <TD>4- 4</TD>
+      <TD>16 26 37.1</TD>
+      <TD>-24 15 59.4</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD/>
+      <TD/>
+      <TD>4-30</TD>
+      <TD>4-30</TD>
+      <TD>16 26 47.1</TD>
+      <TD>-24 44 29.1</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD/>
+      <TD/>
+      <TD>4-46</TD>
+      <TD>4-46</TD>
+      <TD>16 26 56.7</TD>
+      <TD>-24 13 51.2</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD/>
+      <TD/>
+      <TD>4-10</TD>
+      <TD>4-10</TD>
+      <TD>16 27 17.5</TD>
+      <TD>-24 05 13.4</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD/>
+      <TD/>
+      <TD>3-7</TD>
+      <TD>3- 7</TD>
+      <TD>16 27 28.8</TD>
+      <TD>-24 54 31.4</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD/>
+      <TD/>
+      <TD>2-34</TD>
+      <TD>2-34</TD>
+      <TD>16 27 41.8</TD>
+      <TD>-24 04 27.3</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD/>
+      <TD/>
+      <TD>3-31</TD>
+      <TD>3-31</TD>
+      <TD>16 28 00.1</TD>
+      <TD>-24 53 42.5</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD/>
+      <TD/>
+      <TD>3-12</TD>
+      <TD>3-12</TD>
+      <TD>16 28 19.2</TD>
+      <TD>-24 57 34.2</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD/>
+      <TD/>
+      <TD>2-30</TD>
+      <TD>2-30</TD>
+      <TD>16 28 23.4</TD>
+      <TD>-24 22 40.6</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD/>
+      <TD/>
+      <TD>2-4</TD>
+      <TD>2- 4</TD>
+      <TD>16 28 24.3</TD>
+      <TD>-24 09 31.9</TD>
+      <TD/>
+     </TR>
+     <TR>
+      <TD/>
+      <TD/>
+      <TD>3-37</TD>
+      <TD>3-37</TD>
+      <TD>16 29 04.0</TD>
+      <TD>-24 51 42.0</TD>
+      <TD/>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>
