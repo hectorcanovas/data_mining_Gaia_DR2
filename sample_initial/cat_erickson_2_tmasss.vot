@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 3.1.2
+     http://www.astropy.org/ -->
+<VOTABLE version="1.3" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.3">
+ <RESOURCE type="results">
+  <TABLE ID="II_246_out" name="II/246/out">
+   <DESCRIPTION>
+    2MASS Point Source Catalogue, output (on a total of 470,992,970
+    sources)
+   </DESCRIPTION>
+   <FIELD ID="RAJ2000" datatype="double" name="RAJ2000" precision="6" ucd="POS_EQ_RA_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     (ra) Right ascension (J2000)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="DEJ2000" datatype="double" name="DEJ2000" precision="6" ucd="POS_EQ_DEC_MAIN" unit="deg" width="10">
+    <DESCRIPTION>
+     (dec) Declination (J2000) (dec)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="_2MASS" arraysize="17" datatype="char" name="_2MASS" ucd="ID_MAIN">
+    <DESCRIPTION>
+     (designation) Source designation (1)
+    </DESCRIPTION>
+    <VALUES null="b&apos; &apos;"/>
+   </FIELD>
+   <FIELD ID="Jmag" datatype="float" name="Jmag" precision="3" ucd="PHOT_JHN_J" unit="mag" width="6">
+    <DESCRIPTION>
+     ?(j_m) J selected default magnitude (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_Jmag" datatype="float" name="e_Jmag" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     ?(j_msigcom) J total magnitude uncertainty (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Hmag" datatype="float" name="Hmag" precision="3" ucd="PHOT_JHN_H" unit="mag" width="6">
+    <DESCRIPTION>
+     ?(h_m) H selected default magnitude (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_Hmag" datatype="float" name="e_Hmag" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     ?(h_msigcom) H total magnitude uncertainty (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Kmag" datatype="float" name="Kmag" precision="3" ucd="PHOT_JHN_K" unit="mag" width="6">
+    <DESCRIPTION>
+     ?(k_m) K selected default magnitude (2)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="e_Kmag" datatype="float" name="e_Kmag" precision="3" ucd="ERROR" unit="mag" width="6">
+    <DESCRIPTION>
+     ?(k_msigcom) K total magnitude uncertainty (4)
+    </DESCRIPTION>
+    <VALUES null="nan"/>
+   </FIELD>
+   <FIELD ID="Qflg" arraysize="3" datatype="char" name="Qflg" ucd="CODE_QUALITY">
+    <DESCRIPTION>
+     (ph_qual) JHK Photometric quality flag (5)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Rflg" arraysize="3" datatype="char" name="Rflg" ucd="REFER_CODE">
+    <DESCRIPTION>
+     (rd_flg) Source of JHK default mag (6)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Bflg" arraysize="3" datatype="char" name="Bflg" ucd="CODE_MISC">
+    <DESCRIPTION>
+     (bl_flg) JHK components fit to source (7)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Cflg" arraysize="3" datatype="char" name="Cflg" ucd="CODE_MISC">
+    <DESCRIPTION>
+     (cc_flg) Artifact contamination, confusion (8)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Xflg" datatype="unsignedByte" name="Xflg" ucd="CODE_MISC" width="1">
+    <DESCRIPTION>
+     [0,2] (gal_contam) Extended source contamination (10)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Aflg" datatype="unsignedByte" name="Aflg" ucd="CODE_MISC" width="1">
+    <DESCRIPTION>
+     [0,1] (mp_flg) Association with asteroid or comet (11)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="inp_id" datatype="long" name="inp_id"/>
+   <FIELD ID="dist" datatype="double" name="dist" unit="arcsec"/>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>246.165401</TD>
+      <TD>-24.585888</TD>
+      <TD>16243969-2435091</TD>
+      <TD>12.411</TD>
+      <TD> 0.022</TD>
+      <TD>10.963</TD>
+      <TD> 0.023</TD>
+      <TD>10.289</TD>
+      <TD> 0.021</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>1.214</TD>
+     </TR>
+     <TR>
+      <TD>246.171025</TD>
+      <TD>-24.296902</TD>
+      <TD>16244104-2417488</TD>
+      <TD>11.520</TD>
+      <TD> 0.022</TD>
+      <TD> 9.719</TD>
+      <TD> 0.022</TD>
+      <TD> 8.976</TD>
+      <TD> 0.021</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>1</TD>
+      <TD>0.778</TD>
+     </TR>
+     <TR>
+      <TD>246.195012</TD>
+      <TD>-24.372517</TD>
+      <TD>16244680-2422210</TD>
+      <TD>10.340</TD>
+      <TD> 0.024</TD>
+      <TD> 8.672</TD>
+      <TD> 0.038</TD>
+      <TD> 7.966</TD>
+      <TD> 0.026</TD>
+      <TD>AAA</TD>
+      <TD>211</TD>
+      <TD>111</TD>
+      <TD>00d</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>2</TD>
+      <TD>1.357</TD>
+     </TR>
+     <TR>
+      <TD>246.200119</TD>
+      <TD>-24.668097</TD>
+      <TD>16244802-2440051</TD>
+      <TD>12.378</TD>
+      <TD> 0.021</TD>
+      <TD>11.711</TD>
+      <TD> 0.024</TD>
+      <TD>11.361</TD>
+      <TD> 0.026</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>3</TD>
+      <TD>1.535</TD>
+     </TR>
+     <TR>
+      <TD>246.238721</TD>
+      <TD>-24.190016</TD>
+      <TD>16245729-2411240</TD>
+      <TD>10.938</TD>
+      <TD> 0.024</TD>
+      <TD> 9.756</TD>
+      <TD> 0.021</TD>
+      <TD> 9.233</TD>
+      <TD> 0.021</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>4</TD>
+      <TD>1.079</TD>
+     </TR>
+     <TR>
+      <TD>246.295560</TD>
+      <TD>-24.767736</TD>
+      <TD>16251093-2446038</TD>
+      <TD>13.021</TD>
+      <TD> 0.021</TD>
+      <TD>12.026</TD>
+      <TD> 0.022</TD>
+      <TD>11.506</TD>
+      <TD> 0.023</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>5</TD>
+      <TD>0.97</TD>
+     </TR>
+     <TR>
+      <TD>246.299523</TD>
+      <TD>-24.618929</TD>
+      <TD>16251188-2437081</TD>
+      <TD>11.532</TD>
+      <TD> 0.024</TD>
+      <TD> 9.918</TD>
+      <TD> 0.022</TD>
+      <TD> 9.276</TD>
+      <TD> 0.021</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>6</TD>
+      <TD>1.181</TD>
+     </TR>
+     <TR>
+      <TD>246.328809</TD>
+      <TD>-24.800184</TD>
+      <TD>16251891-2448006</TD>
+      <TD>12.031</TD>
+      <TD> 0.023</TD>
+      <TD>10.867</TD>
+      <TD> 0.024</TD>
+      <TD>10.324</TD>
+      <TD> 0.023</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>7</TD>
+      <TD>1.685</TD>
+     </TR>
+     <TR>
+      <TD>246.358838</TD>
+      <TD>-24.018303</TD>
+      <TD>16252612-2401058</TD>
+      <TD>11.341</TD>
+      <TD> 0.023</TD>
+      <TD> 9.820</TD>
+      <TD> 0.026</TD>
+      <TD> 9.185</TD>
+      <TD> 0.023</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>8</TD>
+      <TD>2.48</TD>
+     </TR>
+     <TR>
+      <TD>246.384313</TD>
+      <TD>-24.333061</TD>
+      <TD>16253223-2419590</TD>
+      <TD>12.543</TD>
+      <TD> 0.023</TD>
+      <TD>11.100</TD>
+      <TD> 0.024</TD>
+      <TD>10.487</TD>
+      <TD> 0.023</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>9</TD>
+      <TD>0.915</TD>
+     </TR>
+     <TR>
+      <TD>246.400426</TD>
+      <TD>-24.067596</TD>
+      <TD>16253610-2404033</TD>
+      <TD>11.840</TD>
+      <TD> 0.023</TD>
+      <TD>10.239</TD>
+      <TD> 0.022</TD>
+      <TD> 9.579</TD>
+      <TD> 0.021</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>10</TD>
+      <TD>1.509</TD>
+     </TR>
+     <TR>
+      <TD>246.460698</TD>
+      <TD>-24.793283</TD>
+      <TD>16255056-2447358</TD>
+      <TD>10.899</TD>
+      <TD> 0.022</TD>
+      <TD> 9.587</TD>
+      <TD> 0.025</TD>
+      <TD> 9.122</TD>
+      <TD> 0.021</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>11</TD>
+      <TD>2.039</TD>
+     </TR>
+     <TR>
+      <TD>246.495559</TD>
+      <TD>-24.880098</TD>
+      <TD>16255893-2452483</TD>
+      <TD>11.535</TD>
+      <TD> 0.029</TD>
+      <TD>10.711</TD>
+      <TD> 0.029</TD>
+      <TD>10.239</TD>
+      <TD> 0.024</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>12</TD>
+      <TD>1.436</TD>
+     </TR>
+     <TR>
+      <TD>246.578214</TD>
+      <TD>-24.121958</TD>
+      <TD>16261877-2407190</TD>
+      <TD>10.749</TD>
+      <TD> 0.022</TD>
+      <TD> 9.758</TD>
+      <TD> 0.022</TD>
+      <TD> 9.354</TD>
+      <TD> 0.023</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>13</TD>
+      <TD>0.952</TD>
+     </TR>
+     <TR>
+      <TD>246.601072</TD>
+      <TD>-24.021004</TD>
+      <TD>16262425-2401156</TD>
+      <TD>13.021</TD>
+      <TD> 0.024</TD>
+      <TD>11.938</TD>
+      <TD> 0.026</TD>
+      <TD>11.440</TD>
+      <TD> 0.024</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>14</TD>
+      <TD>0.716</TD>
+     </TR>
+     <TR>
+      <TD>246.679614</TD>
+      <TD>-24.185976</TD>
+      <TD>16264310-2411095</TD>
+      <TD>11.172</TD>
+      <TD> 0.029</TD>
+      <TD>10.069</TD>
+      <TD> 0.029</TD>
+      <TD> 9.679</TD>
+      <TD> 0.024</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>15</TD>
+      <TD>0.533</TD>
+     </TR>
+     <TR>
+      <TD>246.681188</TD>
+      <TD>-24.873577</TD>
+      <TD>16264348-2452248</TD>
+      <TD>12.000</TD>
+      <TD> 0.026</TD>
+      <TD>10.833</TD>
+      <TD> 0.022</TD>
+      <TD>10.368</TD>
+      <TD> 0.021</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>16</TD>
+      <TD>1.906</TD>
+     </TR>
+     <TR>
+      <TD>246.685080</TD>
+      <TD>-24.787174</TD>
+      <TD>16264441-2447138</TD>
+      <TD>11.833</TD>
+      <TD> 0.022</TD>
+      <TD>10.997</TD>
+      <TD> 0.022</TD>
+      <TD>10.635</TD>
+      <TD> 0.021</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>17</TD>
+      <TD>0.873</TD>
+     </TR>
+     <TR>
+      <TD>246.692173</TD>
+      <TD>-23.969488</TD>
+      <TD>16264612-2358101</TD>
+      <TD>12.573</TD>
+      <TD> 0.021</TD>
+      <TD>11.374</TD>
+      <TD> 0.023</TD>
+      <TD>10.766</TD>
+      <TD> 0.020</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>18</TD>
+      <TD>0.318</TD>
+     </TR>
+     <TR>
+      <TD>246.700444</TD>
+      <TD>-24.700928</TD>
+      <TD>16264810-2442033</TD>
+      <TD>12.449</TD>
+      <TD> 0.022</TD>
+      <TD>11.282</TD>
+      <TD> 0.023</TD>
+      <TD>10.655</TD>
+      <TD> 0.019</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>19</TD>
+      <TD>1.349</TD>
+     </TR>
+     <TR>
+      <TD>246.710344</TD>
+      <TD>-24.231184</TD>
+      <TD>16265048-2413522</TD>
+      <TD>12.254</TD>
+      <TD> 0.023</TD>
+      <TD>11.227</TD>
+      <TD> 0.022</TD>
+      <TD>10.803</TD>
+      <TD> 0.021</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>20</TD>
+      <TD>0.384</TD>
+     </TR>
+     <TR>
+      <TD>246.766906</TD>
+      <TD>-24.158836</TD>
+      <TD>16270405-2409318</TD>
+      <TD>11.623</TD>
+      <TD> 0.026</TD>
+      <TD>10.555</TD>
+      <TD> 0.026</TD>
+      <TD>10.094</TD>
+      <TD> 0.024</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>21</TD>
+      <TD>1.986</TD>
+     </TR>
+     <TR>
+      <TD>246.768814</TD>
+      <TD>-24.716578</TD>
+      <TD>16270451-2442596</TD>
+      <TD>12.021</TD>
+      <TD> 0.024</TD>
+      <TD>10.550</TD>
+      <TD> 0.026</TD>
+      <TD> 9.837</TD>
+      <TD> 0.021</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>22</TD>
+      <TD>2.066</TD>
+     </TR>
+     <TR>
+      <TD>246.777307</TD>
+      <TD>-24.117552</TD>
+      <TD>16270655-2407031</TD>
+      <TD>12.457</TD>
+      <TD> 0.024</TD>
+      <TD>11.328</TD>
+      <TD> 0.022</TD>
+      <TD>10.761</TD>
+      <TD> 0.019</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>23</TD>
+      <TD>0.692</TD>
+     </TR>
+     <TR>
+      <TD>246.799490</TD>
+      <TD>-24.175356</TD>
+      <TD>16271187-2410312</TD>
+      <TD>11.874</TD>
+      <TD> 0.027</TD>
+      <TD>10.297</TD>
+      <TD> 0.023</TD>
+      <TD> 9.640</TD>
+      <TD> 0.026</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>24</TD>
+      <TD>1.728</TD>
+     </TR>
+     <TR>
+      <TD>246.824212</TD>
+      <TD>-23.979294</TD>
+      <TD>16271781-2358454</TD>
+      <TD>10.602</TD>
+      <TD> 0.022</TD>
+      <TD> 9.225</TD>
+      <TD> 0.022</TD>
+      <TD> 8.732</TD>
+      <TD> 0.021</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>25</TD>
+      <TD>2.672</TD>
+     </TR>
+     <TR>
+      <TD>246.902696</TD>
+      <TD>-23.974140</TD>
+      <TD>16273664-2358269</TD>
+      <TD>13.176</TD>
+      <TD> 0.028</TD>
+      <TD>12.098</TD>
+      <TD> 0.022</TD>
+      <TD>11.565</TD>
+      <TD> 0.027</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>26</TD>
+      <TD>3.495</TD>
+     </TR>
+     <TR>
+      <TD>246.908214</TD>
+      <TD>-23.956621</TD>
+      <TD>16273797-2357238</TD>
+      <TD>11.317</TD>
+      <TD> 0.027</TD>
+      <TD>10.205</TD>
+      <TD> 0.025</TD>
+      <TD> 9.798</TD>
+      <TD> 0.029</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>27</TD>
+      <TD>0.446</TD>
+     </TR>
+     <TR>
+      <TD>246.909737</TD>
+      <TD>-24.067032</TD>
+      <TD>16273833-2404013</TD>
+      <TD>10.766</TD>
+      <TD> 0.023</TD>
+      <TD> 9.496</TD>
+      <TD> 0.022</TD>
+      <TD> 9.003</TD>
+      <TD> 0.024</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>28</TD>
+      <TD>2.359</TD>
+     </TR>
+     <TR>
+      <TD>246.938442</TD>
+      <TD>-25.059130</TD>
+      <TD>16274522-2503328</TD>
+      <TD>12.405</TD>
+      <TD> 0.023</TD>
+      <TD>11.746</TD>
+      <TD> 0.023</TD>
+      <TD>11.453</TD>
+      <TD> 0.019</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>29</TD>
+      <TD>0.347</TD>
+     </TR>
+     <TR>
+      <TD>247.003371</TD>
+      <TD>-24.014378</TD>
+      <TD>16280080-2400517</TD>
+      <TD>11.298</TD>
+      <TD> 0.023</TD>
+      <TD>10.109</TD>
+      <TD> 0.022</TD>
+      <TD> 9.645</TD>
+      <TD> 0.022</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>30</TD>
+      <TD>0.244</TD>
+     </TR>
+     <TR>
+      <TD>247.014013</TD>
+      <TD>-24.889912</TD>
+      <TD>16280336-2453236</TD>
+      <TD>11.772</TD>
+      <TD> 0.026</TD>
+      <TD>10.957</TD>
+      <TD> 0.026</TD>
+      <TD>10.486</TD>
+      <TD> 0.024</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>31</TD>
+      <TD>1.779</TD>
+     </TR>
+     <TR>
+      <TD>247.045809</TD>
+      <TD>-24.104933</TD>
+      <TD>16281099-2406177</TD>
+      <TD>11.607</TD>
+      <TD> 0.029</TD>
+      <TD>10.567</TD>
+      <TD> 0.027</TD>
+      <TD>10.064</TD>
+      <TD> 0.027</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>32</TD>
+      <TD>1.494</TD>
+     </TR>
+     <TR>
+      <TD>247.057738</TD>
+      <TD>-24.936481</TD>
+      <TD>16281385-2456113</TD>
+      <TD>11.524</TD>
+      <TD> 0.022</TD>
+      <TD>10.282</TD>
+      <TD> 0.024</TD>
+      <TD> 9.698</TD>
+      <TD> 0.021</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>33</TD>
+      <TD>1.478</TD>
+     </TR>
+     <TR>
+      <TD>247.083513</TD>
+      <TD>-24.388287</TD>
+      <TD>16282004-2423178</TD>
+      <TD>12.566</TD>
+      <TD> 0.024</TD>
+      <TD>11.245</TD>
+      <TD> 0.023</TD>
+      <TD>10.618</TD>
+      <TD> 0.025</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>34</TD>
+      <TD>0.819</TD>
+     </TR>
+     <TR>
+      <TD>247.089627</TD>
+      <TD>-24.365259</TD>
+      <TD>16282151-2421549</TD>
+      <TD>12.078</TD>
+      <TD> 0.024</TD>
+      <TD>10.742</TD>
+      <TD> 0.023</TD>
+      <TD>10.182</TD>
+      <TD> 0.025</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>35</TD>
+      <TD>1.252</TD>
+     </TR>
+     <TR>
+      <TD>247.095672</TD>
+      <TD>-24.808031</TD>
+      <TD>16282296-2448289</TD>
+      <TD>12.684</TD>
+      <TD> 0.023</TD>
+      <TD>11.498</TD>
+      <TD> 0.024</TD>
+      <TD>10.946</TD>
+      <TD> 0.019</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>36</TD>
+      <TD>1.08</TD>
+     </TR>
+     <TR>
+      <TD>247.103327</TD>
+      <TD>-24.595394</TD>
+      <TD>16282479-2435434</TD>
+      <TD>12.551</TD>
+      <TD> 0.027</TD>
+      <TD>11.694</TD>
+      <TD> 0.024</TD>
+      <TD>11.296</TD>
+      <TD> 0.019</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>37</TD>
+      <TD>1.477</TD>
+     </TR>
+     <TR>
+      <TD>247.134049</TD>
+      <TD>-24.096741</TD>
+      <TD>16283217-2405482</TD>
+      <TD>12.024</TD>
+      <TD> 0.024</TD>
+      <TD>10.788</TD>
+      <TD> 0.023</TD>
+      <TD>10.208</TD>
+      <TD> 0.022</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>38</TD>
+      <TD>3.233</TD>
+     </TR>
+     <TR>
+      <TD>247.135673</TD>
+      <TD>-24.256731</TD>
+      <TD>16283256-2415242</TD>
+      <TD>12.150</TD>
+      <TD> 0.023</TD>
+      <TD>10.563</TD>
+      <TD> 0.023</TD>
+      <TD> 9.844</TD>
+      <TD> 0.024</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>39</TD>
+      <TD>0.606</TD>
+     </TR>
+     <TR>
+      <TD>247.179354</TD>
+      <TD>-24.381182</TD>
+      <TD>16284304-2422522</TD>
+      <TD>11.719</TD>
+      <TD> 0.027</TD>
+      <TD>10.671</TD>
+      <TD> 0.023</TD>
+      <TD>10.139</TD>
+      <TD> 0.019</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>40</TD>
+      <TD>0.825</TD>
+     </TR>
+     <TR>
+      <TD>247.195981</TD>
+      <TD>-24.470509</TD>
+      <TD>16284703-2428138</TD>
+      <TD>13.245</TD>
+      <TD> 0.026</TD>
+      <TD>12.533</TD>
+      <TD> 0.023</TD>
+      <TD>11.952</TD>
+      <TD> 0.023</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>41</TD>
+      <TD>2.427</TD>
+     </TR>
+     <TR>
+      <TD>247.237285</TD>
+      <TD>-24.519348</TD>
+      <TD>16285694-2431096</TD>
+      <TD>12.256</TD>
+      <TD> 0.026</TD>
+      <TD>11.469</TD>
+      <TD> 0.023</TD>
+      <TD>10.908</TD>
+      <TD> 0.023</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>000</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>42</TD>
+      <TD>2.2</TD>
+     </TR>
+     <TR>
+      <TD>247.263383</TD>
+      <TD>-24.463564</TD>
+      <TD>16290321-2427488</TD>
+      <TD>12.526</TD>
+      <TD> 0.041</TD>
+      <TD>11.736</TD>
+      <TD> 0.051</TD>
+      <TD>11.282</TD>
+      <TD> 0.036</TD>
+      <TD>AAA</TD>
+      <TD>222</TD>
+      <TD>111</TD>
+      <TD>ccc</TD>
+      <TD>0</TD>
+      <TD>0</TD>
+      <TD>43</TD>
+      <TD>1.509</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

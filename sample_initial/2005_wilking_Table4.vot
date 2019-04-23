@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VOTABLE version="1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.ivoa.net/xml/VOTable/v1.2"
+  xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.2 http://www.ivoa.net/xml/VOTable/v1.2">
+ <DESCRIPTION>
+   VizieR Astronomical Server vizier.cfa.harvard.edu
+    Date: 2019-02-01T09:20:28 [V1.99+ (14-Oct-2013)]
+   Explanations and Statistics of UCDs:			See LINK below
+   In case of problem, please report to:	cds-question@unistra.fr
+   In this version, NULL integer columns are written as an empty string
+   &lt;TD&gt;&lt;/TD&gt;, explicitely possible from VOTable-1.3
+ </DESCRIPTION>
+<!-- VOTable description at http://www.ivoa.net/Documents/latest/VOT.html -->
+<INFO ID="VERSION" name="votable-version" value="1.99+ (14-Oct-2013)"/>
+<INFO ID="Ref" name="-ref" value="VIZ5c540f2b135f2"/>
+<INFO ID="MaxTuples" name="-out.max" value="unlimited"/>
+<INFO name="queryParameters" value="19">
+-oc.form=dec
+-out.max=unlimited
+-order=I
+-out.src=J/AJ/130/1733/table4
+-nav=cat:J/AJ/130/1733&amp;tab:{J/AJ/130/1733/table4}&amp;key:source=J/AJ/130/1733/table4&amp;HTTPPRM:&amp;&amp;-ref=VIZ5c540f2b135f2&amp;-out.max=50&amp;-out.form=HTML Table&amp;-oc.form=sexa&amp;-order=I&amp;-out=Seq&amp;-out=Names&amp;-out=AV&amp;-out=f_AV&amp;-out=IMAG&amp;-out=logTeff&amp;-out=logLum&amp;-out=f_logLum&amp;-out=l_Mass&amp;-out=Mass&amp;-out=l_logA&amp;-out=logA&amp;-out=Note&amp;-file=.&amp;-meta.ucd=2&amp;-meta=1&amp;-meta.foot=1&amp;-usenav=1&amp;-bmark=POST&amp;-out.src=J/AJ/130/1733/table4
+-source=J/AJ/130/1733/table4
+-out=Seq
+-out=Names
+-out=AV
+-out=f_AV
+-out=IMAG
+-out=logTeff
+-out=logLum
+-out=f_logLum
+-out=l_Mass
+-out=Mass
+-out=l_logA
+-out=logA
+-out=Note
+</INFO>
+
+<!--
+Execution Reports
+ -->
+
+<RESOURCE ID="yCat_51301733" name="J/AJ/130/1733">
+  <DESCRIPTION>Optical spectroscopy of {rho} Oph stars (Wilking+, 2005)</DESCRIPTION>
+  <TABLE ID="J_AJ_130_1733_table4" name="J/AJ/130/1733/table4">
+    <DESCRIPTION>Association members</DESCRIPTION>
+    <!-- Definitions of GROUPs and FIELDs -->
+    <FIELD name="Seq" ucd="meta.id;meta.main" datatype="char" arraysize="4"><!-- ucd="ID_MAIN" -->
+      <DESCRIPTION>Identification number</DESCRIPTION>
+    </FIELD>
+    <FIELD name="Names" ucd="meta.id" datatype="char" arraysize="8*"><!-- ucd="ID_ALTERNATIVE" -->
+      <DESCRIPTION>Source names (G1)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="AV" ucd="phys.absorption" datatype="float" width="4" precision="1" unit="mag"><!-- ucd="PHOT_EXTINCTION_ISM" -->
+      <DESCRIPTION>? The V band extinction</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="f_AV" ucd="meta.code" datatype="char" arraysize="1"><!-- ucd="CODE_MISC" -->
+      <DESCRIPTION>[c] Flag on AV (2)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="IMAG" ucd="phys.magAbs;em.opt.I" datatype="float" width="5" precision="2" unit="mag"><!-- ucd="PHOT_ABS-MAG_BAND" -->
+      <DESCRIPTION>? Absolute I band magnitude</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="logTeff" ucd="phys.temperature.effective" datatype="float" width="6" precision="3" unit="[K]"><!-- ucd="PHYS_TEMP_EFFEC" -->
+      <DESCRIPTION>log of the effective temperature</DESCRIPTION>
+    </FIELD>
+    <FIELD name="logLum" ucd="spect.line.eqWidth" datatype="float" width="5" precision="2" unit="[solLum]"><!-- ucd="SPECT_EQ-WIDTH" -->
+      <DESCRIPTION>? log of the luminosity</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="f_logLum" ucd="meta.code" datatype="char" arraysize="1"><!-- ucd="CODE_MISC" -->
+      <DESCRIPTION>[c] Flag on logLum (2)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="l_Mass" ucd="meta.code.error;phys.mass" datatype="char" arraysize="1"><!-- ucd="CODE_LIMIT" -->
+      <DESCRIPTION>Limit flag on Mass</DESCRIPTION>
+    </FIELD>
+    <FIELD name="Mass" ucd="phys.mass" datatype="float" width="5" precision="2" unit="solMass"><!-- ucd="PHYS_MASS_MISC" -->
+      <DESCRIPTION>? Mass in solar units</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="l_logA" ucd="meta.code.error" datatype="char" arraysize="1"><!-- ucd="CODE_LIMIT" -->
+      <DESCRIPTION>Limit flag on logA</DESCRIPTION>
+    </FIELD>
+    <FIELD name="logA" ucd="time.age" datatype="float" width="5" precision="2" unit="[Myr]"><!-- ucd="TIME_AGE" -->
+      <DESCRIPTION>? log of the age</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Note" ucd="meta.note" datatype="char" arraysize="11*"><!-- ucd="NOTE" -->
+      <DESCRIPTION>Additional notes (3)</DESCRIPTION>
+    </FIELD>
+<DATA><TABLEDATA>
+<TR><TD>2-15</TD><TD></TD><TD>2.6</TD><TD></TD><TD>6.26</TD><TD>3.512</TD><TD>-0.76</TD><TD></TD><TD></TD><TD>0.19</TD><TD></TD><TD>6.09</TD><TD>li,ext</TD></TR>
+<TR><TD>2-14</TD><TD></TD><TD>2.1</TD><TD></TD><TD>8.03</TD><TD>3.525</TD><TD>-1.50</TD><TD></TD><TD></TD><TD>0.27</TD><TD></TD><TD>7.28</TD><TD>ext</TD></TR>
+<TR><TD>2-10</TD><TD></TD><TD>0.8</TD><TD></TD><TD>8.13</TD><TD>3.477</TD><TD>-1.38</TD><TD></TD><TD></TD><TD>0.14</TD><TD></TD><TD>6.57</TD><TD>ha</TD></TR>
+<TR><TD>1- 7</TD><TD>SR 22</TD><TD>0.0</TD><TD></TD><TD>7.00</TD><TD>3.488</TD><TD>-0.98</TD><TD></TD><TD></TD><TD>0.15</TD><TD></TD><TD>6.18</TD><TD>ha,x</TD></TR>
+<TR><TD>3-15</TD><TD>WLY2-3</TD><TD>4.9</TD><TD></TD><TD>6.04</TD><TD>3.544</TD><TD>-0.74</TD><TD></TD><TD></TD><TD>0.31</TD><TD></TD><TD>6.33</TD><TD>ha,x,ext</TD></TR>
+<TR><TD>2-32</TD><TD></TD><TD>2.6</TD><TD></TD><TD>6.79</TD><TD>3.512</TD><TD>-0.98</TD><TD></TD><TD></TD><TD>0.20</TD><TD></TD><TD>6.32</TD><TD>x,li,ext</TD></TR>
+<TR><TD>1-22</TD><TD>VSS 23</TD><TD>5.1</TD><TD></TD><TD>3.43</TD><TD>3.630</TD><TD>0.25</TD><TD></TD><TD></TD><TD>0.53</TD><TD></TD><TD>5.59</TD><TD>x,ext</TD></TR>
+<TR><TD>2-25</TD><TD>WLY2-11</TD><TD>2.3</TD><TD></TD><TD>7.25</TD><TD>3.477</TD><TD>-1.03</TD><TD></TD><TD></TD><TD>0.14</TD><TD></TD><TD>6.17</TD><TD>ha,x,ext</TD></TR>
+<TR><TD>1-29</TD><TD>SR 4</TD><TD>0.5</TD><TD></TD><TD>5.15</TD><TD>3.650</TD><TD>-0.43</TD><TD></TD><TD></TD><TD>0.91</TD><TD></TD><TD>7.01</TD><TD>ha,x,li</TD></TR>
+<TR><TD>1-38</TD><TD>GSS 20</TD><TD>6.0</TD><TD></TD><TD>3.54</TD><TD>3.630</TD><TD>0.21</TD><TD></TD><TD></TD><TD>0.54</TD><TD></TD><TD>5.64</TD><TD>x,ext</TD></TR>
+<TR><TD>3-14</TD><TD></TD><TD>1.0</TD><TD></TD><TD>7.36</TD><TD>3.488</TD><TD>-1.12</TD><TD></TD><TD></TD><TD>0.16</TD><TD></TD><TD>6.33</TD><TD>li</TD></TR>
+<TR><TD>2- 1</TD><TD>Chini 8</TD><TD>0.0</TD><TD></TD><TD>7.12</TD><TD>3.462</TD><TD>-0.93</TD><TD></TD><TD></TD><TD>0.12</TD><TD></TD><TD>5.57</TD><TD>ha,x,li</TD></TR>
+<TR><TD>4-28</TD><TD></TD><TD>5.3</TD><TD></TD><TD>5.93</TD><TD>3.525</TD><TD>-0.66</TD><TD></TD><TD></TD><TD>0.22</TD><TD></TD><TD>6.06</TD><TD>x,ext</TD></TR>
+<TR><TD>1-13</TD><TD>VSSG 19</TD><TD>3.4</TD><TD></TD><TD>5.05</TD><TD>3.544</TD><TD>-0.35</TD><TD></TD><TD></TD><TD>0.27</TD><TD></TD><TD>5.83</TD><TD>x,ext</TD></TR>
+<TR><TD>2-19</TD><TD></TD><TD>2.1</TD><TD></TD><TD>6.63</TD><TD>3.488</TD><TD>-0.83</TD><TD></TD><TD></TD><TD>0.15</TD><TD></TD><TD>6.01</TD><TD>ha,li,ext</TD></TR>
+<TR><TD>1- 5</TD><TD>GSS 28</TD><TD>2.8</TD><TD></TD><TD>4.28</TD><TD>3.650</TD><TD>-0.08</TD><TD></TD><TD></TD><TD>0.79</TD><TD></TD><TD>6.31</TD><TD>ha,x,li,ext</TD></TR>
+<TR><TD>4-39</TD><TD></TD><TD>1.9</TD><TD></TD><TD>6.06</TD><TD>3.512</TD><TD>-0.68</TD><TD></TD><TD></TD><TD>0.18</TD><TD></TD><TD>6.01</TD><TD>li,ext</TD></TR>
+<TR><TD>2-11</TD><TD></TD><TD>0.1</TD><TD></TD><TD>7.39</TD><TD>3.482</TD><TD>-1.11</TD><TD></TD><TD></TD><TD>0.15</TD><TD></TD><TD>6.30</TD><TD>x,li</TD></TR>
+<TR><TD>1-25</TD><TD>WSB 28</TD><TD>2.9</TD><TD></TD><TD>5.48</TD><TD>3.544</TD><TD>-0.52</TD><TD></TD><TD></TD><TD>0.29</TD><TD></TD><TD>6.02</TD><TD>ha,x,ext</TD></TR>
+<TR><TD>4-16</TD><TD>GY 5</TD><TD>2.8</TD><TD></TD><TD>8.27</TD><TD>3.462</TD><TD>-1.39</TD><TD></TD><TD></TD><TD>0.11</TD><TD></TD><TD>6.47</TD><TD>ha,x,ext</TD></TR>
+<TR><TD>4-41</TD><TD>GY 3</TD><TD>0.0</TD><TD></TD><TD>9.74</TD><TD>3.398</TD><TD>-1.33</TD><TD></TD><TD>&lt;</TD><TD>0.04</TD><TD>&lt;</TD><TD>5.00</TD><TD>ha,x</TD></TR>
+<TR><TD>1-30</TD><TD>GSS 31</TD><TD>6.0</TD><TD></TD><TD>2.26</TD><TD>3.752</TD><TD>0.82</TD><TD></TD><TD></TD><TD>2.10</TD><TD></TD><TD>6.50</TD><TD>x,ext</TD></TR>
+<TR><TD>1-28</TD><TD>DoAr 25</TD><TD>2.9</TD><TD></TD><TD>3.97</TD><TD>3.638</TD><TD>0.03</TD><TD></TD><TD></TD><TD>0.64</TD><TD></TD><TD>5.97</TD><TD>ha,x,li,ext</TD></TR>
+<TR><TD>2-27</TD><TD>EL 24</TD><TD>7.5</TD><TD></TD><TD>3.57</TD><TD>3.630</TD><TD>0.19</TD><TD></TD><TD></TD><TD>0.54</TD><TD></TD><TD>5.66</TD><TD>ha,x,ext</TD></TR>
+<TR><TD>4-18</TD><TD></TD><TD>2.2</TD><TD></TD><TD>8.64</TD><TD>3.488</TD><TD>-1.64</TD><TD></TD><TD></TD><TD>0.16</TD><TD></TD><TD>7.00</TD><TD>ext</TD></TR>
+<TR><TD>4-25</TD><TD></TD><TD>1.3</TD><TD></TD><TD>9.12</TD><TD>3.462</TD><TD>-1.73</TD><TD></TD><TD></TD><TD>0.09</TD><TD></TD><TD>6.74</TD><TD>x</TD></TR>
+<TR><TD>4-66</TD><TD>GY 37</TD><TD>3.4</TD><TD></TD><TD>9.95</TD><TD>3.477</TD><TD>-2.11</TD><TD></TD><TD></TD><TD>0.10</TD><TD></TD><TD>7.31</TD><TD>ha,x,ext</TD></TR>
+<TR><TD>4-27</TD><TD>GY 59</TD><TD></TD><TD></TD><TD></TD><TD>3.491</TD><TD></TD><TD></TD><TD></TD><TD></TD><TD></TD><TD></TD><TD>x</TD></TR>
+<TR><TD>2-36</TD><TD>WSB 34</TD><TD>0.8</TD><TD></TD><TD>7.80</TD><TD>3.488</TD><TD>-1.30</TD><TD></TD><TD></TD><TD>0.16</TD><TD></TD><TD>6.55</TD><TD>ha</TD></TR>
+<TR><TD>1- 2</TD><TD>Source 1</TD><TD>13.0</TD><TD></TD><TD>-1.15</TD><TD>4.278</TD><TD>3.20</TD><TD></TD><TD></TD><TD>5.00</TD><TD></TD><TD>7.60</TD><TD>x,ext</TD></TR>
+<TR><TD>4- 4</TD><TD></TD><TD>1.9</TD><TD></TD><TD>8.51</TD><TD>3.477</TD><TD>-1.53</TD><TD></TD><TD></TD><TD>0.14</TD><TD></TD><TD>6.74</TD><TD>ha,x,ext</TD></TR>
+<TR><TD>2-29</TD><TD>WSB 37</TD><TD>0.8</TD><TD></TD><TD>7.00</TD><TD>3.477</TD><TD>-0.93</TD><TD></TD><TD></TD><TD>0.14</TD><TD></TD><TD>6.04</TD><TD>ha,x,li</TD></TR>
+<TR><TD>1-21</TD><TD></TD><TD>4.3</TD><TD></TD><TD>4.83</TD><TD>3.591</TD><TD>-0.29</TD><TD></TD><TD></TD><TD>0.48</TD><TD></TD><TD>6.08</TD><TD>x,ext</TD></TR>
+<TR><TD>3-22</TD><TD></TD><TD>0.4</TD><TD></TD><TD>7.74</TD><TD>3.488</TD><TD>-1.28</TD><TD></TD><TD></TD><TD>0.16</TD><TD></TD><TD>6.52</TD><TD>x,li</TD></TR>
+<TR><TD>1-20</TD><TD>GY 112</TD><TD>2.4</TD><TD></TD><TD>5.92</TD><TD>3.525</TD><TD>-0.65</TD><TD></TD><TD></TD><TD>0.22</TD><TD></TD><TD>6.05</TD><TD>x,ext</TD></TR>
+<TR><TD>4-13</TD><TD></TD><TD>4.6</TD><TD></TD><TD>6.87</TD><TD>3.525</TD><TD>-1.03</TD><TD></TD><TD></TD><TD>0.24</TD><TD></TD><TD>6.52</TD><TD>li,ext</TD></TR>
+<TR><TD>1-36</TD><TD>WSB 38</TD><TD>7.7</TD><TD></TD><TD>1.87</TD><TD>3.765</TD><TD>0.98</TD><TD></TD><TD></TD><TD>2.20</TD><TD></TD><TD>6.45</TD><TD>ha,x,li,ext</TD></TR>
+<TR><TD>4-30</TD><TD></TD><TD>2.8</TD><TD></TD><TD>7.62</TD><TD>3.488</TD><TD>-1.23</TD><TD></TD><TD></TD><TD>0.16</TD><TD></TD><TD>6.46</TD><TD>x,li,ext</TD></TR>
+<TR><TD>1-32</TD><TD>WSB 40</TD><TD>5.6</TD><TD></TD><TD>3.68</TD><TD>3.630</TD><TD>0.15</TD><TD></TD><TD></TD><TD>0.55</TD><TD></TD><TD>5.71</TD><TD>ha,ext</TD></TR>
+<TR><TD>4-53</TD><TD>WL 18</TD><TD>10.4</TD><TD>c</TD><TD>6.89</TD><TD>3.612</TD><TD>-0.66</TD><TD>c</TD><TD></TD><TD>0.78</TD><TD></TD><TD>7.10</TD><TD>ha,x,ext</TD></TR>
+<TR><TD>2-38</TD><TD></TD><TD>1.7</TD><TD></TD><TD>7.89</TD><TD>3.488</TD><TD>-1.34</TD><TD></TD><TD></TD><TD>0.16</TD><TD></TD><TD>6.60</TD><TD>ext</TD></TR>
+<TR><TD>4-46</TD><TD></TD><TD>8.8</TD><TD></TD><TD>5.16</TD><TD>3.602</TD><TD>-0.42</TD><TD></TD><TD></TD><TD>0.61</TD><TD></TD><TD>6.45</TD><TD>ha,x,ext</TD></TR>
+<TR><TD>1-37</TD><TD>SR 24s</TD><TD>5.5</TD><TD></TD><TD>3.68</TD><TD>3.705</TD><TD>0.21</TD><TD></TD><TD></TD><TD>1.40</TD><TD></TD><TD>6.64</TD><TD>ha,x,ext</TD></TR>
+<TR><TD>4-63</TD><TD></TD><TD>2.6</TD><TD></TD><TD>7.89</TD><TD>3.488</TD><TD>-1.33</TD><TD></TD><TD></TD><TD>0.16</TD><TD></TD><TD>6.59</TD><TD>ext</TD></TR>
+<TR><TD>4-65</TD><TD>GY 204</TD><TD>0.5</TD><TD></TD><TD>9.25</TD><TD>3.462</TD><TD>-1.78</TD><TD></TD><TD></TD><TD>0.09</TD><TD></TD><TD>6.77</TD><TD>ha,x</TD></TR>
+<TR><TD>4-37</TD><TD></TD><TD>6.7</TD><TD></TD><TD>6.27</TD><TD>3.535</TD><TD>-0.82</TD><TD></TD><TD></TD><TD>0.27</TD><TD></TD><TD>6.34</TD><TD>ext</TD></TR>
+<TR><TD>3-44</TD><TD>WSB 45</TD><TD>0.0</TD><TD></TD><TD>7.43</TD><TD>3.488</TD><TD>-1.15</TD><TD></TD><TD></TD><TD>0.16</TD><TD></TD><TD>6.37</TD><TD>li,x</TD></TR>
+<TR><TD>1- 9</TD><TD>WSB 46</TD><TD>0.6</TD><TD></TD><TD>6.01</TD><TD>3.544</TD><TD>-0.73</TD><TD></TD><TD></TD><TD>0.31</TD><TD></TD><TD>6.31</TD><TD>x</TD></TR>
+<TR><TD>3-17</TD><TD></TD><TD>8.6</TD><TD></TD><TD>4.00</TD><TD>3.705</TD><TD>0.08</TD><TD></TD><TD></TD><TD>1.30</TD><TD></TD><TD>6.81</TD><TD>ext</TD></TR>
+<TR><TD>4-10</TD><TD></TD><TD>4.4</TD><TD></TD><TD>6.97</TD><TD>3.512</TD><TD>-1.04</TD><TD></TD><TD></TD><TD>0.20</TD><TD></TD><TD>6.40</TD><TD>ha,ext</TD></TR>
+<TR><TD>1- 6</TD><TD>WSB 48</TD><TD>0.0</TD><TD></TD><TD>7.35</TD><TD>3.491</TD><TD>-1.18</TD><TD></TD><TD></TD><TD>0.16</TD><TD></TD><TD>6.42</TD><TD>ha</TD></TR>
+<TR><TD></TD><TD>SR 12</TD><TD>2.4</TD><TD></TD><TD>3.76</TD><TD>3.580</TD><TD>0.15</TD><TD></TD><TD></TD><TD>0.31</TD><TD></TD><TD>4.99</TD><TD>x,ext</TD></TR>
+<TR><TD>3- 6</TD><TD>WSB 49</TD><TD>0.3</TD><TD></TD><TD>7.24</TD><TD>3.493</TD><TD>-1.10</TD><TD></TD><TD></TD><TD>0.16</TD><TD></TD><TD>6.34</TD><TD>ha,x,li</TD></TR>
+<TR><TD>4-45</TD><TD>GY 264</TD><TD>0.0</TD><TD></TD><TD>9.84</TD><TD>3.398</TD><TD>-1.37</TD><TD></TD><TD>&lt;</TD><TD>0.04</TD><TD>&lt;</TD><TD>5.00</TD><TD>ha,x</TD></TR>
+<TR><TD>3- 7</TD><TD></TD><TD>0.0</TD><TD></TD><TD>8.44</TD><TD>3.482</TD><TD>-1.53</TD><TD></TD><TD></TD><TD>0.15</TD><TD></TD><TD>6.80</TD><TD>x</TD></TR>
+<TR><TD>2-20</TD><TD></TD><TD>1.1</TD><TD></TD><TD>7.75</TD><TD>3.544</TD><TD>-1.43</TD><TD></TD><TD></TD><TD>0.36</TD><TD></TD><TD>7.46</TD><TD>x</TD></TR>
+<TR><TD>4-22</TD><TD>GY 284</TD><TD>4.8</TD><TD></TD><TD>7.45</TD><TD>3.519</TD><TD>-1.25</TD><TD></TD><TD></TD><TD>0.24</TD><TD></TD><TD>6.80</TD><TD>x,ext</TD></TR>
+<TR><TD>2- 6</TD><TD>WSB 50</TD><TD>1.9</TD><TD></TD><TD>7.04</TD><TD>3.488</TD><TD>-1.00</TD><TD></TD><TD></TD><TD>0.15</TD><TD></TD><TD>6.20</TD><TD>x,li,ext</TD></TR>
+<TR><TD>4-54</TD><TD></TD><TD>3.0</TD><TD></TD><TD>6.05</TD><TD>3.535</TD><TD>-0.73</TD><TD></TD><TD></TD><TD>0.26</TD><TD></TD><TD>6.22</TD><TD>li,ext</TD></TR>
+<TR><TD>2-35</TD><TD>WSB 51</TD><TD>4.3</TD><TD></TD><TD>3.85</TD><TD>3.621</TD><TD>0.08</TD><TD></TD><TD></TD><TD>0.51</TD><TD></TD><TD>5.74</TD><TD>ha,x,li,ext</TD></TR>
+<TR><TD>4-24</TD><TD>WLY2-49</TD><TD>9.6</TD><TD></TD><TD>3.88</TD><TD>3.630</TD><TD>0.07</TD><TD></TD><TD></TD><TD>0.57</TD><TD></TD><TD>5.82</TD><TD>ha,x,ext</TD></TR>
+<TR><TD>1-31</TD><TD>WSB 53</TD><TD>3.7</TD><TD></TD><TD>3.94</TD><TD>3.630</TD><TD>0.04</TD><TD></TD><TD></TD><TD>0.58</TD><TD></TD><TD>5.87</TD><TD>ha,ext</TD></TR>
+<TR><TD>3- 5</TD><TD>WSB 52</TD><TD>7.1</TD><TD></TD><TD>3.90</TD><TD>3.638</TD><TD>0.06</TD><TD></TD><TD></TD><TD>0.63</TD><TD></TD><TD>5.92</TD><TD>ha,x,li,ext</TD></TR>
+<TR><TD>1-26</TD><TD>SR 9</TD><TD>0.0</TD><TD></TD><TD>5.38</TD><TD>3.638</TD><TD>-0.53</TD><TD></TD><TD></TD><TD>0.85</TD><TD></TD><TD>7.10</TD><TD>ha,x,li</TD></TR>
+<TR><TD>2-34</TD><TD></TD><TD>4.1</TD><TD></TD><TD>5.04</TD><TD>3.544</TD><TD>-0.34</TD><TD></TD><TD></TD><TD>0.27</TD><TD></TD><TD>5.82</TD><TD>x,ext</TD></TR>
+<TR><TD>4-64</TD><TD>GY 326</TD><TD></TD><TD></TD><TD></TD><TD>3.544</TD><TD></TD><TD></TD><TD></TD><TD></TD><TD></TD><TD></TD><TD>x</TD></TR>
+<TR><TD>3-21</TD><TD></TD><TD>0.4</TD><TD></TD><TD>7.99</TD><TD>3.488</TD><TD>-1.37</TD><TD></TD><TD></TD><TD>0.16</TD><TD></TD><TD>6.64</TD><TD>li</TD></TR>
+<TR><TD>1-14</TD><TD>VSSG 14</TD><TD>6.7</TD><TD></TD><TD>2.24</TD><TD>3.895</TD><TD>0.94</TD><TD></TD><TD></TD><TD>1.70</TD><TD></TD><TD>7.15</TD><TD>x,ext</TD></TR>
+<TR><TD>1-10</TD><TD>ROX 31</TD><TD>5.0</TD><TD></TD><TD>3.79</TD><TD>3.597</TD><TD>0.13</TD><TD></TD><TD></TD><TD>0.38</TD><TD></TD><TD>5.53</TD><TD>x,ext</TD></TR>
+<TR><TD>1-24</TD><TD>SR 10</TD><TD>0.1</TD><TD></TD><TD>5.99</TD><TD>3.544</TD><TD>-0.73</TD><TD></TD><TD></TD><TD>0.31</TD><TD></TD><TD>6.31</TD><TD>ha,x</TD></TR>
+<TR><TD>3-34</TD><TD>WSB 58</TD><TD>0.9</TD><TD></TD><TD>7.00</TD><TD>3.482</TD><TD>-0.95</TD><TD></TD><TD></TD><TD>0.14</TD><TD></TD><TD>6.11</TD><TD>x</TD></TR>
+<TR><TD>3-31</TD><TD></TD><TD>0.9</TD><TD></TD><TD>7.11</TD><TD>3.477</TD><TD>-0.97</TD><TD></TD><TD></TD><TD>0.14</TD><TD></TD><TD>6.09</TD><TD>ha,x,li</TD></TR>
+<TR><TD>2- 3</TD><TD></TD><TD>3.0</TD><TD></TD><TD>6.21</TD><TD>3.525</TD><TD>-0.77</TD><TD></TD><TD></TD><TD>0.23</TD><TD></TD><TD>6.18</TD><TD>li,ext</TD></TR>
+<TR><TD>2-21</TD><TD></TD><TD>3.5</TD><TD></TD><TD>6.27</TD><TD>3.491</TD><TD>-0.75</TD><TD></TD><TD></TD><TD>0.15</TD><TD></TD><TD>5.77</TD><TD>ext</TD></TR>
+<TR><TD>3-11</TD><TD>ROX 32</TD><TD>3.5</TD><TD></TD><TD>5.69</TD><TD>3.525</TD><TD>-0.56</TD><TD></TD><TD></TD><TD>0.21</TD><TD></TD><TD>5.94</TD><TD>x,li,ext</TD></TR>
+<TR><TD>3-20</TD><TD>WSB 60</TD><TD>2.0</TD><TD></TD><TD>7.38</TD><TD>3.488</TD><TD>-1.13</TD><TD></TD><TD></TD><TD>0.16</TD><TD></TD><TD>6.34</TD><TD>ha,ext</TD></TR>
+<TR><TD>3-12</TD><TD></TD><TD>1.9</TD><TD></TD><TD>6.53</TD><TD>3.525</TD><TD>-0.90</TD><TD></TD><TD></TD><TD>0.24</TD><TD></TD><TD>6.34</TD><TD>ext</TD></TR>
+<TR><TD>4- 3</TD><TD></TD><TD>4.0</TD><TD></TD><TD>7.27</TD><TD>3.512</TD><TD>-1.17</TD><TD></TD><TD></TD><TD>0.21</TD><TD></TD><TD>6.59</TD><TD>ext</TD></TR>
+<TR><TD>2-37</TD><TD></TD><TD>4.7</TD><TD></TD><TD>6.24</TD><TD>3.535</TD><TD>-0.81</TD><TD></TD><TD></TD><TD>0.27</TD><TD></TD><TD>6.32</TD><TD>x,ext</TD></TR>
+<TR><TD>2-30</TD><TD></TD><TD>6.8</TD><TD></TD><TD>4.62</TD><TD>3.638</TD><TD>-0.22</TD><TD></TD><TD></TD><TD>0.76</TD><TD></TD><TD>6.44</TD><TD>x,ha,ext</TD></TR>
+<TR><TD>2- 4</TD><TD></TD><TD>4.8</TD><TD></TD><TD>5.87</TD><TD>3.544</TD><TD>-0.68</TD><TD></TD><TD></TD><TD>0.30</TD><TD></TD><TD>6.24</TD><TD>x,ext</TD></TR>
+<TR><TD>3-39</TD><TD></TD><TD>0.5</TD><TD></TD><TD>8.61</TD><TD>3.477</TD><TD>-1.57</TD><TD></TD><TD></TD><TD>0.14</TD><TD></TD><TD>6.79</TD><TD>li</TD></TR>
+<TR><TD>4-57</TD><TD></TD><TD>5.3</TD><TD></TD><TD>6.88</TD><TD>3.512</TD><TD>-1.01</TD><TD></TD><TD></TD><TD>0.20</TD><TD></TD><TD>6.36</TD><TD>ext</TD></TR>
+<TR><TD>1-35</TD><TD>SR 20</TD><TD>5.7</TD><TD></TD><TD>2.08</TD><TD>3.747</TD><TD>0.89</TD><TD></TD><TD></TD><TD>2.20</TD><TD></TD><TD>6.41</TD><TD>ha,x,ext</TD></TR>
+<TR><TD>2-23</TD><TD></TD><TD>1.4</TD><TD></TD><TD>7.73</TD><TD>3.482</TD><TD>-1.25</TD><TD></TD><TD></TD><TD>0.15</TD><TD></TD><TD>6.45</TD><TD>x,li</TD></TR>
+<TR><TD>1-15</TD><TD>SR 13</TD><TD>0.0</TD><TD></TD><TD>5.07</TD><TD>3.491</TD><TD>-0.27</TD><TD></TD><TD></TD><TD>0.13</TD><TD></TD><TD>4.55</TD><TD>ha,x</TD></TR>
+<TR><TD>3-43</TD><TD>WSB 63</TD><TD>3.8</TD><TD></TD><TD>5.37</TD><TD>3.553</TD><TD>-0.48</TD><TD></TD><TD></TD><TD>0.34</TD><TD></TD><TD>6.04</TD><TD>x,ha,li,ext</TD></TR>
+<TR><TD>3-37</TD><TD></TD><TD>0.0</TD><TD></TD><TD>8.61</TD><TD>3.462</TD><TD>-1.52</TD><TD></TD><TD></TD><TD>0.10</TD><TD></TD><TD>6.57</TD><TD>li</TD></TR>
+</TABLEDATA></DATA>
+</TABLE>
+</RESOURCE>
+</VOTABLE>
