@@ -1,5 +1,5 @@
 Data:
-This directory contains the software to analyse the Gaia DR2 x Sample_initial output.
+* wise_RGB_img.fits RGB image created by "02_plot_OPH_img.ipynb"
 
 Software:
 * 01_clean_gaia_output.ipynb  >>  Examine the Gaia DR2 x Sample_initial output to creates Control sample. it also removes & store (in a .VOT table) the outliers. 
