@@ -9,7 +9,7 @@ Additionally, data from two generic articles describing ALL SFRs in the Galaxy a
 * Porras et al. 2003: http://vizier.cfa.harvard.edu/viz-bin/VizieR?-source=J/AJ/126/1916
 
 Software:
-* 00_read_generic_cats.ipynb >> First look to different SFR in the Galaxy
-* 01_read_oph_cats.ipynb     >> Obtain 2MASS IDs for the 3 Oph generic catalogues
-* 02_create_Sample_Ini.ipynb >> Combine the previous result into 1 single file (after remocing duplicate targets). Prepare .vot file for Gaia query.
-* 03_add_labels.ipynb        >. Creates Initial Sample in article-loike format. Includes reference and Control (Y/N) informative labels.
+* 00_read_generic_cats.ipynb  >>  First look to different SFR in the Galaxy
+* 01_read_oph_cats.ipynb      >>  Obtain 2MASS IDs for the 3 Oph generic catalogues
+* 02_create_Sample_Ini.ipynb  >>  Combine the previous result into 1 single file (after remocing duplicate targets). Prepare .vot file for Gaia query.
+* 03_add_labels.ipynb         >>  Creates Initial Sample in article-loike format. Includes reference and Control (Y/N) informative labels.
