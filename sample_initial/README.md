@@ -8,6 +8,9 @@ Additionally, data from two generic articles describing ALL SFRs in the Galaxy a
 * Ribas et al. 2015: http://adsabs.harvard.edu/abs/2015A%26A...576A..52R
 * Porras et al. 2003: http://vizier.cfa.harvard.edu/viz-bin/VizieR?-source=J/AJ/126/1916
 
+* sample_initial_oph_x_gaia-result.vot >> Output of running the "gaia_query.sql" in this directory
+in the Gaia DR2 archive.
+
 
 Software:
 * 00_read_generic_cats.ipynb  >>  First look to different SFR in the Galaxy
