@@ -1,3 +1,0 @@
-Aim: To run different scalings before applying the clustering algorithms
-Results: 3 different scalings are tested (standard, MinMax, Robust). The Standard one is
-the most suitable for our clustering analysis
