@@ -13,3 +13,4 @@ WHERE 1=CONTAINS(
   CIRCLE('ICRS',247.0,-24.0, 3.5)) 
 AND parallax >= 5 AND parallax <= 9
 AND parallax/parallax_error >10
+-- AND visibility_periods_used >7 -- Alternative extra constraint
