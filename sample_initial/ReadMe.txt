@@ -37,20 +37,20 @@ File Summary:
  FileName    Lrecl    Records    Explanations
 --------------------------------------------------------------------------------
 ReadMe.txt      80          .    This file
-tab_ap_1.dat    56        470    Initial sample.
+tab_ap_1.dat    51        470    Initial sample.
 --------------------------------------------------------------------------------
 
 Byte-by-byte Description of file: tab_ap_1.dat
 --------------------------------------------------------------------------------
    Bytes Format  Units   Label    Explanations
 --------------------------------------------------------------------------------
-   1- 17  A17    ---     2MASS    2MASS Source ID
-  19- 26  A8     ---     Ref      References
-  34- 35  A2     ---     Control  Control Sample Membership 
-  37- 56  I20    ---     DR2      Gaia DR 2 Source ID
+   2- 18  A17    ---     2MASS    2MASS Source ID
+  20- 27  A8     ---     Ref      References
+  29- 30  A2     ---     Control  Control Sample Membership 
+  32- 51  I20    ---     DR2      Gaia DR 2 Source ID
 --------------------------------------------------------------------------------
 
-Note (1): References are:
+Note: References are:
 	(1) = Wilking  2008, 2008hsf2.book..351W
 	(2) = Erickson et al. 2011, 2011AJ....142..140E
 	(3) = Dunham et al. 2015, 2015ApJS..220...11D
