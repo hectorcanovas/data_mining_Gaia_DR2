@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 3.1.2
+     http://www.astropy.org/ -->
+<VOTABLE version="1.3" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.3">
+ <RESOURCE type="results">
+  <TABLE ID="J_MNRAS_448_2737_table2" name="J/MNRAS/448/2737/table2">
+   <DESCRIPTION>
+    New pre-Main Sequence (PMS) stars in Upper Sco
+   </DESCRIPTION>
+   <FIELD ID="gaia_id" arraysize="28" datatype="unicodeChar" name="gaia_id"/>
+   <FIELD ID="_r" datatype="double" name="_r" unit="arcsec"/>
+   <FIELD ID="_2MASS" arraysize="17" datatype="unicodeChar" name="_2MASS" ucd="ID_ALTERNATIVE">
+    <DESCRIPTION>
+     2MASS designation (JHHMMSSss+DDMMSSs)
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="SpT" arraysize="4" datatype="unicodeChar" name="SpT" ucd="SPECT_TYPE_MK">
+    <DESCRIPTION>
+     Spectral Type
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="Av" datatype="float" name="Av" precision="1" ucd="PHOT_EXTINCTION_ISM" width="4">
+    <DESCRIPTION>
+     [0/2.8] Visual Extinction
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>Gaia DR2 6048608906890968960</TD>
+      <TD>0.048</TD>
+      <TD>J16212953-2529431</TD>
+      <TD>M2.5</TD>
+      <TD> 0.7</TD>
+     </TR>
+     <TR>
+      <TD>Gaia DR2 6048935358761628288</TD>
+      <TD>0.084</TD>
+      <TD>J16262803-2526477</TD>
+      <TD>M0.0</TD>
+      <TD> 1.8</TD>
+     </TR>
+     <TR>
+      <TD>Gaia DR2 6048948759059667712</TD>
+      <TD>0.126</TD>
+      <TD>J16263495-2511409</TD>
+      <TD>M0.0</TD>
+      <TD> 1.1</TD>
+     </TR>
+     <TR>
+      <TD>Gaia DR2 6048976762246802944</TD>
+      <TD>0.108</TD>
+      <TD>J16233234-2523485</TD>
+      <TD>K2.0</TD>
+      <TD> 1.3</TD>
+     </TR>
+     <TR>
+      <TD>Gaia DR2 6049045000683707392</TD>
+      <TD>0.066</TD>
+      <TD>J16271273-2504017</TD>
+      <TD>M1.0</TD>
+      <TD> 0.9</TD>
+     </TR>
+     <TR>
+      <TD>Gaia DR2 6049456183673228672</TD>
+      <TD>0.198</TD>
+      <TD>J16235509-2330396</TD>
+      <TD>M2.5</TD>
+      <TD> 1.2</TD>
+     </TR>
+     <TR>
+      <TD>Gaia DR2 6050345001390940160</TD>
+      <TD>0.048</TD>
+      <TD>J16171649-2327570</TD>
+      <TD>M3.5</TD>
+      <TD> 0.6</TD>
+     </TR>
+     <TR>
+      <TD>Gaia DR2 6050346856816823552</TD>
+      <TD>0.096</TD>
+      <TD>J16172162-2325004</TD>
+      <TD>M4.0</TD>
+      <TD> 0.5</TD>
+     </TR>
+     <TR>
+      <TD>Gaia DR2 6050373760491905920</TD>
+      <TD>0.198</TD>
+      <TD>J16173138-2303360</TD>
+      <TD>K1.5</TD>
+      <TD> 0.0</TD>
+     </TR>
+     <TR>
+      <TD>Gaia DR2 6050487456864139392</TD>
+      <TD>0.048</TD>
+      <TD>J16200686-2247320</TD>
+      <TD>M4.5</TD>
+      <TD> 0.9</TD>
+     </TR>
+     <TR>
+      <TD>Gaia DR2 6050492439026465280</TD>
+      <TD>0.09</TD>
+      <TD>J16211584-2240045</TD>
+      <TD>M1.5</TD>
+      <TD> 0.9</TD>
+     </TR>
+     <TR>
+      <TD>Gaia DR2 6050939459220525312</TD>
+      <TD>0.078</TD>
+      <TD>J16253504-2332549</TD>
+      <TD>M0.0</TD>
+      <TD> 2.1</TD>
+     </TR>
+     <TR>
+      <TD>Gaia DR2 6050956604730019072</TD>
+      <TD>0.42</TD>
+      <TD>J16251690-2322030</TD>
+      <TD>M0.0</TD>
+      <TD> 1.9</TD>
+     </TR>
+     <TR>
+      <TD>Gaia DR2 6050957498083223936</TD>
+      <TD>0.318</TD>
+      <TD>J16250236-2321447</TD>
+      <TD>M1.0</TD>
+      <TD> 1.8</TD>
+     </TR>
+     <TR>
+      <TD>Gaia DR2 6050996118429316352</TD>
+      <TD>0.024</TD>
+      <TD>J16261995-2258097</TD>
+      <TD>M3.5</TD>
+      <TD> 0.7</TD>
+     </TR>
+     <TR>
+      <TD>Gaia DR2 6051764573978499200</TD>
+      <TD>0.108</TD>
+      <TD>J16262016-2233124</TD>
+      <TD>M3.5</TD>
+      <TD> 0.8</TD>
+     </TR>
+     <TR>
+      <TD>Gaia DR2 6052043815573779072</TD>
+      <TD>0.072</TD>
+      <TD>J16231741-2159067</TD>
+      <TD>M3.5</TD>
+      <TD> 0.6</TD>
+     </TR>
+     <TR>
+      <TD>Gaia DR2 6052065977604571520</TD>
+      <TD>0.012</TD>
+      <TD>J16200616-2212385</TD>
+      <TD>M3.5</TD>
+      <TD> 0.2</TD>
+     </TR>
+     <TR>
+      <TD>Gaia DR2 6052068657664195072</TD>
+      <TD>0.132</TD>
+      <TD>J16194836-2212519</TD>
+      <TD>M3.0</TD>
+      <TD> 0.3</TD>
+     </TR>
+     <TR>
+      <TD>Gaia DR2 6052205065824347776</TD>
+      <TD>0.072</TD>
+      <TD>J16225479-2138091</TD>
+      <TD>M2.5</TD>
+      <TD> 0.7</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>
