@@ -45,7 +45,7 @@ Byte-by-byte Description of file: tab_ap_1.dat
    Bytes Format  Units   Label    Explanations
 --------------------------------------------------------------------------------
    2- 18  A17    ---     2MASS    2MASS Source ID
-  20- 27  A8     ---     Ref      References
+  20- 27  A8     ---     Ref      References (1)
   29- 30  A2     ---     Control  Control Sample Membership 
   32- 51  I20    ---     DR2      Gaia DR 2 Source ID
 --------------------------------------------------------------------------------
